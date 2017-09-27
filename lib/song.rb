@@ -10,7 +10,6 @@ attr_accessor :name, :artist
   def artist_name
     if self.artist.name.is_a? String
       self.artist.name
-      binding.pry
     else
       self.artist.name = nil
       self.artist.name
