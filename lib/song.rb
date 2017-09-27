@@ -11,7 +11,7 @@ attr_accessor :name, :artist
     if self.artist == nil
       nil
     else
-      self.artist.name 
+      self.artist.name
     end
   end
 
