@@ -11,7 +11,7 @@ attr_accessor :name, :artist
     if self.artist.name.is_a? String
       self.artist.name
       binding.pry
-    else    
+    else
       nil
     end
   end
