@@ -12,7 +12,8 @@ attr_accessor :name, :artist
       self.artist.name
       binding.pry
     else
-      nil
+      self.artist.name = nil
+      self.artist.name
     end
   end
 
