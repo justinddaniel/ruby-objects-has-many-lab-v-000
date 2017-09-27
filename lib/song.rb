@@ -7,9 +7,9 @@ attr_accessor :name, :artist
   end
 
   def artist_name
-    if self.artist is_a? String
+    if self.artist.is_a? String
       self.artist
-    else 
+    else
       nil
     end
   end
